@@ -8,8 +8,8 @@ const supeherorSchema = new mongoose.Schema({
     planetaOrigen: { type: String, default: "Desconocido" },
     debilidad: String,
     poderes: { type: [String], required: true },
-    aliado: [String],
-    enemigo: [String],
+    aliados: [String],
+    enemigos: [String],
     createdAt: { type: Date, default: Date.now },
     creador: String
     
